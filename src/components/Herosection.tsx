@@ -1,9 +1,20 @@
+import Image from "next/image";
+
 const HeroSection = () => {
   return (
     <section
       className=" w-full  h-[650px] bg-cover bg-center rounded-lg mt-25"
       style={{ backgroundImage: "url('/images/hero.jpg')" }}
     >
+      {/* Temporary image tag for debugging */}
+      <Image
+        src="/images/hero.jpg"
+        alt="Hero Debug"
+        width={100}
+        height={100}
+        style={{ display: "block", maxWidth: "100px" }}
+      />
+
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent rounded-lg" />
 
       <div className="relative z-00 h-full flex flex-col justify-center p-6 sm:p-12 md:w-3/4 lg:w-3/5">
