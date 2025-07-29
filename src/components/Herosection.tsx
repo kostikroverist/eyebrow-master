@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="relative w-full h-[650px] rounded-lg mt-25 overflow-hidden">
       <Image
-        src="/images/hero.jpg"
+        src="/images/hero.jpg" 
         alt="Професійна стилізація брів"
         layout="fill"
         objectFit="cover"
