@@ -2,7 +2,7 @@ import Image from "next/image"; // Don't forget to import Image
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[650px] rounded-lg mt-25 overflow-hidden">
+    <section className="relative w-full h-[650px] rounded-lg mt-10 overflow-hidden">
       <Image
         src="/images/hero.JPG" 
         alt="Професійна стилізація брів"
@@ -13,7 +13,7 @@ const HeroSection = () => {
       />
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent rounded-lg" />
 
-      <div className="relative z-0 h-full flex flex-col justify-center p-6 sm:p-12 md:w-3/4 lg:w-3/5">
+      <div className="relative z-0 h-full text-center md:text-left flex flex-col justify-end md:justify-center p-6 sm:p-12 md:w-3/4 lg:w-3/5">
         <div className="text-white">
           <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl text-balance leading-tight">
             Професійна стилізація брів!

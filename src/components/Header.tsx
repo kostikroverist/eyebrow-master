@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-[#5D3954] bg-opacity-80 w-full absolute top-0 left-0 z-10 ">
+    <div className="bg-[#5D3954] sticky bg-opacity-80 w-full absolute top-0 left-0 z-10 ">
       <div className="max-w-[1200px] mx-auto px-4 py-4 flex justify-between items-center h-18">
         <h1 className="text-2xl font-bold text-white">My Website</h1>
 
