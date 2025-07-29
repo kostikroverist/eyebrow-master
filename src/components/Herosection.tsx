@@ -1,25 +1,21 @@
-import Image from "next/image";
+import Image from "next/image"; // Don't forget to import Image
 
 const HeroSection = () => {
   return (
-    <section
-      className=" w-full  h-[650px] bg-cover bg-center rounded-lg mt-25"
-      style={{ backgroundImage: "url('/images/hero.jpg')" }}
-    >
-      {/* Temporary image tag for debugging */}
+    <section className="relative w-full h-[650px] rounded-lg mt-25 overflow-hidden">
       <Image
         src="/images/hero.jpg"
-        alt="Hero Debug"
-        width={100}
-        height={100}
-        style={{ display: "block", maxWidth: "100px" }}
+        alt="Професійна стилізація брів"
+        layout="fill"
+        objectFit="cover"
+        quality={90}
+        priority
       />
-
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent rounded-lg" />
 
-      <div className="relative z-00 h-full flex flex-col justify-center p-6 sm:p-12 md:w-3/4 lg:w-3/5">
+      <div className="relative z-10 h-full flex flex-col justify-center p-6 sm:p-12 md:w-3/4 lg:w-3/5">
         <div className="text-white">
-          <h1 className="z-0 font-extrabold text-4xl sm:text-5xl md:text-6xl text-balance leading-tight">
+          <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl text-balance leading-tight">
             Професійна стилізація брів!
           </h1>
           <p className="mt-4 text-lg md:text-xl text-neutral-200 max-w-lg">
