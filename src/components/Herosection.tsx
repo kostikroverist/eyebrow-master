@@ -1,4 +1,3 @@
-// components/HeroSection.js
 
 const HeroSection = () => {
   return (
@@ -18,7 +17,7 @@ const HeroSection = () => {
           </p>
 
           <button className="mt-8 px-8 py-3 bg-pink-600 text-white font-bold rounded-full hover:bg-pink-700 transition-colors duration-300">
-            Записатись онлайн
+            Записатись онлайн 
           </button>
         </div>
       </div>
