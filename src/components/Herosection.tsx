@@ -2,7 +2,7 @@ import Image from "next/image"; // Don't forget to import Image
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[650px] rounded-lg mt-10 overflow-hidden">
+    <section className="relative w-full h-[650px] rounded-lg mt-0 md:mt-10 overflow-hidden">
       <Image
         src="/images/hero.JPG" 
         alt="Професійна стилізація брів"
