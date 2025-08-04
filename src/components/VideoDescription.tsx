@@ -25,16 +25,14 @@ const VideoDescription: React.FC<VideoDescriptionProps> = ({
           </p>
         </div>
 
-        {/* Відео (другий елемент) */}
         <div className="w-full lg:w-1/2">
-          {/* Встановлюємо фіксовану висоту контейнера */}
           <div className="w-full h-[500px]">
             <iframe
               className="w-full h-full rounded-xl shadow-2xl "
               src={videoUrl}
               title={title}
               frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
           </div>

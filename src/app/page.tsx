@@ -17,7 +17,7 @@ export default function Home() {
         <ServicesList />
         <BeautyGallery />
         <VideoDescription
-          videoUrl="images/beauty.mp4"
+          videoUrl="images/beauty.MP4"
           title="Наша робота"
           description="Корекція фарбування брів"
         />
