@@ -1,19 +1,28 @@
-import BeautyServiceCard from "@/components/BeautyServiceCard";
-import BeautyServiceCards from "@/components/BeautyServiceCards";
+import About from "@/components/About";
+import BeautyGallery from "@/components/BeautyGallery";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Herosection from "@/components/Herosection";
+import ServicesList from "@/components/ServicesList";
+import VideoDescription from "@/components/VideoDescription";
 import { beautyServices } from "@/constant/constants";
 
 export default function Home() {
   return (
     <main className="w-full">
-        <Header />
+      <Header />
       <div className="max-w-[1200px] mx-auto ">
         <Herosection />
-        <BeautyServiceCards />
+        <About />
+        <ServicesList />
+        <BeautyGallery />
+        <VideoDescription
+          videoUrl="images/beauty.mp4"
+          title="Наша робота"
+          description="Корекція фарбування брів"
+        />
       </div>
-        <Footer />
+      <Footer />
     </main>
   );
 }
