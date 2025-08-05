@@ -18,7 +18,6 @@ const photos: Photo[] = [
   { src: "/images/IMG_5010.JPG" },
   { src: "/images/IMG_5072.JPG" },
   { src: "/images/IMG_5082.JPG" },
-  { src: "/images/marta.jpg" },
   { src: "/images/photoone.jpg" },
   { src: "/images/phototwo.jpg" },
 ];

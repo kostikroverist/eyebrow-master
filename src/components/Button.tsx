@@ -7,6 +7,8 @@ type Props = {
   isLink?: boolean;
   href?: string;
   variant?: "default" | "black";
+  className?: string;
+  type?: "button" | "submit" | "reset";
 };
 
 const Button: FC<Props> = ({
@@ -15,9 +17,10 @@ const Button: FC<Props> = ({
   isLink,
   href,
   variant = "default",
+  className: classNameProp = "",
+  type = "button",
 }) => {
-  const baseClasses =
-    "px-8 py-3 text-white font-bold rounded-full transition-colors duration-300";
+  const baseClasses = `cursor-pointer px-8 py-3 text-white font-bold rounded-full transition-colors duration-300 ${classNameProp}`;
 
   const variantClasses =
     variant === "black"
@@ -35,7 +38,7 @@ const Button: FC<Props> = ({
   }
 
   return (
-    <button onClick={onClick} className={className}>
+    <button onClick={onClick} className={className} type={type}>
       {title}
     </button>
   );
