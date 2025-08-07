@@ -1,6 +1,5 @@
 import { BeautyService } from "@/interfaces/BeautyService";
 
-
 export const beautyServices: BeautyService[] = [
   {
     id: 1,
@@ -43,5 +42,35 @@ export const beautyServices: BeautyService[] = [
     title: "Освітлення брів",
     price: 400,
     duration: 40,
+  },
+  {
+    id: 8,
+    title: "Макіяж Верній",
+    price: 1100,
+    duration: 60,
+  },
+  {
+    id: 9,
+    title: "Весільний макіяж",
+    price: 1500,
+    duration: 90,
+  },
+  {
+    id: 10,
+    title: "Денний легкий макіяж",
+    price: 800,
+    duration: 45,
+  },
+  {
+    id: 11,
+    title: "Накладні вії без макіяжу",
+    price: 100,
+    duration: 15,
+  },
+  {
+    id: 12,
+    title: "Ранній вихід",
+    price: 200,
+    duration: 0, // це надбавка, тому тривалість = 0
   },
 ];

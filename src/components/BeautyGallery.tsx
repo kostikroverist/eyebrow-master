@@ -30,7 +30,7 @@ const PortfolioGrid: React.FC = () => {
 
   return (
     <>
-      <div className="container mx-auto p-4">
+      <div id="portfolio" className="container mx-auto p-4">
         <h2 className="text-3xl text-center sm:text-4xl font-extrabold mb-4 text-gray-900 dark:text-white leading-tight">
           Наше портфоліо
         </h2>

@@ -9,6 +9,7 @@ type Props = {
   variant?: "default" | "black";
   className?: string;
   type?: "button" | "submit" | "reset";
+  disabled?: boolean;
 };
 
 const Button: FC<Props> = ({
@@ -19,6 +20,7 @@ const Button: FC<Props> = ({
   variant = "default",
   className: classNameProp = "",
   type = "button",
+  disabled = false,
 }) => {
   const baseClasses = `cursor-pointer px-8 py-3 text-white font-bold rounded-full transition-colors duration-300 ${classNameProp}`;
 
@@ -38,7 +40,12 @@ const Button: FC<Props> = ({
   }
 
   return (
-    <button onClick={onClick} className={className} type={type}>
+    <button
+      disabled={disabled}
+      onClick={onClick}
+      className={className}
+      type={type}
+    >
       {title}
     </button>
   );

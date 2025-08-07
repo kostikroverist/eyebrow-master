@@ -1,6 +1,7 @@
 import Image from "next/image"; // Don't forget to import Image
 import Button from "./Button";
 import { title } from "process";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -23,7 +24,9 @@ const HeroSection = () => {
           <p className="mt-4 text-lg md:text-xl text-neutral-200 max-w-lg">
             Твій образ - моє мистецтво
           </p>
-          <Button title={"Записатись онлайн"} className="mt-8" />
+          <Link href="#services">
+            <Button title={"Записатись онлайн"} className="mt-8" />
+          </Link>
         </div>
       </div>
     </section>

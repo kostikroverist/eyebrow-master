@@ -12,7 +12,7 @@ const ServicesList = () => {
   const [selectedService, setSelectedService] = useState<BeautyService | null>(null);
 
   return (
-    <section className="bg-bg font-sans text-white w-full py-12 sm:py-20">
+    <section id="services" className="bg-bg font-sans text-white w-full py-12 sm:py-20">
       <h2 className="text-3xl text-center sm:text-4xl font-extrabold mb-4 text-header leading-tight">
         Наші послуги
       </h2>

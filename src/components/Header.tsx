@@ -13,40 +13,32 @@ const Header = () => {
   return (
     <div className="bg-[#5D3954] sticky bg-opacity-80 w-full absolute top-0 left-0 z-10 ">
       <div className="max-w-[1200px] mx-auto px-4 py-4 flex justify-between items-center h-18">
-        <h1 className="text-2xl font-bold text-white">My Website</h1>
+        <h1 className="text-2xl font-bold text-white">Makeup & Brows</h1>
 
         <nav className="hidden md:flex">
           <ul className="flex space-x-6">
             <li>
               <Link
-                href="/"
+                href="#about-me"
                 className="text-white hover:text-pink-400 transition-colors duration-300 font-medium text-lg"
               >
-                Домашня Сторінка
+                Про мене
               </Link>
             </li>
             <li>
               <Link
-                href="/service"
+                href="#services"
                 className="text-white hover:text-pink-400 transition-colors duration-300 font-medium text-lg"
               >
-                Послуги
+                Наші послуги
               </Link>
             </li>
             <li>
               <Link
-                href="/booking"
+                href="#portfolio"
                 className="text-white hover:text-pink-400 transition-colors duration-300 font-medium text-lg"
               >
-                Забронювати
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className="text-white hover:text-pink-400 transition-colors duration-300 font-medium text-lg"
-              >
-                Контакт
+                Наше портфоліо
               </Link>
             </li>
           </ul>
@@ -75,38 +67,29 @@ const Header = () => {
           <ul className="flex flex-col space-y-5 items-center">
             <li>
               <Link
-                href="/"
+                href="#about-me"
                 className="block w-full text-center py-3 px-4 rounded-lg text-white hover:bg-gray-700 transition-colors duration-300 text-lg"
                 onClick={toggleMenu}
               >
-                Домашня Сторінка
+                Про мене
               </Link>
             </li>
             <li>
               <Link
-                href="/service"
+                href="#services"
                 className="block w-full text-center py-3 px-4 rounded-lg text-white hover:bg-gray-700 transition-colors duration-300 text-lg"
                 onClick={toggleMenu}
               >
-                Послуги
+                Наші послуги
               </Link>
             </li>
             <li>
               <Link
-                href="/booking"
+                href="#portfolio"
                 className="block w-full text-center py-3 px-4 rounded-lg text-white hover:bg-gray-700 transition-colors duration-300 text-lg"
                 onClick={toggleMenu}
               >
-                Забронювати
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className="block w-full text-center py-3 px-4 rounded-lg text-white hover:bg-gray-700 transition-colors duration-300 text-lg"
-                onClick={toggleMenu}
-              >
-                Контакт
+                Наше портфоліо
               </Link>
             </li>
           </ul>
