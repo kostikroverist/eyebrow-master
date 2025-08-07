@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  --background: #030712; 
   --foreground: #171717;
   --card-bg: #c6005c;
 }
@@ -11,12 +12,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #030712;
-  }
 }
 
 body {
