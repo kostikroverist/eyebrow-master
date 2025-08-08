@@ -45,7 +45,7 @@ export const beautyServices: BeautyService[] = [
   },
   {
     id: 8,
-    title: "Макіяж Верній",
+    title: "Макіяж Вечірній",
     price: 1100,
     duration: 60,
   },
