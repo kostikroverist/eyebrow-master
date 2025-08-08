@@ -12,7 +12,7 @@ const VideoDescription: React.FC<VideoDescriptionProps> = ({
   description,
 }) => {
   return (
-    <section className="container mx-auto px-4 py-12">
+    <section data-aos="zoom-in-right" className="container mx-auto px-4 py-12">
       <div className="flex flex-col lg:flex-row lg:space-x-12">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0 flex flex-col justify-center">
           <p className="text-[24px] text-center md:text-left text-white leading-relaxed">

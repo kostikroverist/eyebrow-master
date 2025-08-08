@@ -36,7 +36,7 @@ const PortfolioGrid: React.FC = () => {
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {photos.map((photo, index) => (
-            <div
+            <div data-aos="flip-left"
               key={index}
               className="relative aspect-square overflow-hidden rounded-lg shadow-md cursor-pointer"
               onClick={() => {

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[650px] rounded-lg mt-0 md:mt-10 overflow-hidden">
+    <section data-aos="fade-right" className="relative w-full h-[650px] rounded-lg mt-0 md:mt-10 overflow-hidden">
       <Image
         src="/images/hero.JPG"
         alt="Професійна стилізація брів"

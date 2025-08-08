@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id='about-me' className="py-16 ">
+    <section data-aos="zoom-in" id='about-me' className="py-16 ">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center md:space-x-8">
           {/* Фотографія */}
