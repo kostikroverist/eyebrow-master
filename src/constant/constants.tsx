@@ -4,7 +4,7 @@ export const beautyServices: BeautyService[] = [
   {
     id: 1,
     title: "Комплекс ламінування / фарбування / корекція",
-    price: 650,
+    price: 600,
     duration: 40,
   },
   {
@@ -73,4 +73,10 @@ export const beautyServices: BeautyService[] = [
     price: 200,
     duration: 0, // це надбавка, тому тривалість = 0
   },
+  {
+    id: 13,
+    title: "Депіляція обличчя ",
+    price: 100,
+    duration: 10,
+  }
 ];

@@ -20,7 +20,7 @@ const About = () => {
             </div>
           </div>
           
-          <div className="w-full md:w-2/3 text-center md:text-left">
+          <div className="w-full md:w-2/3  md:text-left">
             <h2 className="text-4xl font-bold text-white mb-4 text-center">Про мене</h2>
             <p className="text-lg text-white leading-relaxed mb-4">
              Мене звати Марта. Я працюю з бровами та макіяжем так, щоб ви закохалися у своє відображення. У кожній роботі бачу мистецтво, де кольори, лінії та форми створюють гармонію. 

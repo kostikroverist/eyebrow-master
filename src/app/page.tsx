@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import AddressBlock from "@/components/AddressBlock";
 import BeautyGallery from "@/components/BeautyGallery";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <div className="max-w-[1200px] mx-auto ">
         <Herosection />
+        <AddressBlock streetName="Liudkevycha 5, Stryi" />
         <About />
         <ServicesList />
         <BeautyGallery />

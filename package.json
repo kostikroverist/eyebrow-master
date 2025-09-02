@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "aos": "^2.3.4",
     "date-fns": "^4.1.0",
     "googleapis": "^155.0.0",
